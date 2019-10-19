@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    font-family: century gothic
+}
+#Content {
+    max-width: 1252px;
+    margin: auto;
+    flex-wrap: wrap
+}
+
+li {
+    list-style:none 
+}
+a {
+    text-decoration:none;
+}
+
+}
+body,ul {
+margin: 0;
+padding: 0
+}
+header, #top {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 0;
+    max-width: 100%;
+}
+#hed-logo {
+    position: relative;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: normal;
+    justify-content: space-around;
+    padding:24px 395px 0px 160px;
+}
+
+#hed-logo .img1 {
+    margin-right: 16px
+}
+#hed-menu {
+    justify-content: space-around;
+    padding:45px 100px 0px 0px;
+    
+}
+#hed-menu ul {
+    display: flex
+}
+#hed-menu ul li a {
+    display: block;
+    padding: 0 25px;
+    color: gray;
+    font-size: 20px;
+    align-items: center;
+    line-height: 40px;
+    cursor: pointer;
+    
+}
+#hed-menu ul li a::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color:#0084ff;
+    transition: width .3s ease-in-out;
+}
+#hed-menu ul li a:hover:after,a:focus:after {
+    width: 100%;
+    
+}
+#Banners {
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    background: url(img/fon.png);
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 25.7vw;
+    margin-top: 0
+    
+}
+#Sign {
+    display: flex;
+}
+#Sign  button {
+    position: absolute;
+    background: #5094f2;
+    color: #fff;
+    border: none;
+    left: 55%;
+    bottom: 25%;
+    cursor: pointer;
+    transition: 0.5s;
+    max-width:174px;
+    height:10%;
+}
+#Sign  button:hover {
+    background: #bce1f1;
+}
+#Sign .tx {
+    display: flex;
+    text-align: center;
+    justify-content: center
+
+}
+#Sign .tx span {
+    font-size: 1.07vw;
+    width: 100%;
+    margin-left: 4px
+}
+#Sign .tx i {
+    font-size: 1.3vw;
+}
+
+#Banners #ban-img-telefon {
+    position: absolute;
+    left:15% ;
+    top: 10%;
+    bottom: 8%;
+    right: 50%;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%
+ }
+ #Banners #ban-text {
+     position: absolute;
+     color: #fff;
+     left: 53%;
+     bottom: 38%;
+    
+ }
+ #Banners #ban-text h2 {
+    font-size: 1.7vw;
+    font-weight: normal;
+    margin: 5% 0 5% 0;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%
+    
+
+ }
+ #Banners #ban-text p {
+    font-size: 1.2vw;
+    display: flex;
+    margin: 10px 0 10px 0;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%
+
+ }
+ #Banners #zub {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%
+    
+ }
+  #Banners #left-st {
+    position: absolute;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    left:5% ;
+    top: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  #Banners #right-st {
+    position: absolute;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    right: 5%;
+    top: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  #Banners  #right-st:hover,#Banners #left-st:hover {
+    background: #bce1f1;
+ }
+ #bodu-content-menu {
+ position: relative;
+ margin: 50px 0 0px 0 ;
+ display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+#contary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0 0px 0 ;
+}
+  #contary .key {
+    max-width: 257.33px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ #contary .key a  {
+    cursor: pointer;
+    transition: 0.5s;
+ }
+ #contary .key a:hover{
+    background: #bce1f1;
+ }
+ #contary .red {
+    margin:0 150px 0 150px ;
+ }
+ #bodu-content-menu #contary .key h3  {
+    font-size:20px;
+    font-weight: normal;
+    margin-bottom: 5px ;
+ }
+ #bodu-content-menu #contary .key h3 a {
+     color: #0084ff
+ }
+ #bodu-content-menu #contary .key p {
+    margin-top: 0;
+    font-size:14px;
+    color: gray 
+ }
+#bottom-blok {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+    justify-content: center
+}
+#bottom-blok #left-blok {
+    display: flex;
+    max-width: 50%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+#bottom-blok #left-blok h2 {
+    font-size:30px;
+    font-weight: normal;
+    margin-bottom: 40px ;
+    color: gray;
+}
+#bottom-blok #right-blok {
+    display: flex;
+    max-width: 50%;
+    text-align: left;
+    flex-direction: column;
+    margin:4% 0 0 7%;
+ }
+
+#bottom-blok #right-blok h4 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0px ;
+    color: gray
+
+}
+#bottom-blok #right-blok p {
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+    line-height: 30px
+}
+footer {
+    position: relative;
+    border-top: 1px solid rgb(209, 206, 206);
+    width: 100%;
+    height: 88px;
+    align-items: center;
+}
+footer img {
+position: absolute;
+left: 40%;
+top:35px
+
+}
+
+
+   
